@@ -1,0 +1,333 @@
+ @media screen and (min-width: 450px) and (max-width: 767px) {
+	.advertising { width: 400px !important; margin: 0 auto; }
+	.adv_item { margin-left: 5px ; }
+ }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	nav{text-align: center;}
+	.button-m{width: 50%;}
+	.button-wraper{height: 420px;}
+	.big-b{line-height: 18px;}
+	.container_main .main-text-block h4{padding-left: 10px;}
+    .container_main .main-text-block h2{font-size: 15px;}
+    .container_main .main-text-block p{padding-left: 30px;}
+    .container_main .main-text-block h3{padding-left: 20px;}
+    .container_main .main-text-block2 h2 {text-align: center;font-size: 20px;}
+	.main-nav li {padding: 0px 2px;}
+	.inner-wrapper ul {width: 100%; display: block;}
+	.main-nav li span{display: none;}
+	.btn-group1 .my-acc {margin-left: 2px;}
+	.btn-group1 .my-log {margin-left: 12px;}
+	.btn-group1 {margin-top: 34px; margin-left: 10px;}
+	.btn-group2{margin-left: 10px; margin-top: 17px;}
+	.btn_wrapper{width: 100%; padding-top: 20px;}
+	.forgot_pass{font-size: 10px;}
+	.reg_state, .reg_wrapper>input{width: 100%;}
+	.inner { width: 320px; }
+	.logo { float: none; display: block; margin: 10px auto;}
+	.social { float: none; margin: 0 auto; width: 144px; padding-top: 20px; }
+	.email_wrapper{ width: 120px; padding-top: 20px;  }
+	.login_pass { width: 120px; margin-top: 20px; }
+	.login_form { float: none; width: 255px; margin: 0 auto; position: relative; }
+	.btn_wrapper { float: none; margin: 0; }
+	.center_wrapper {padding-bottom: 20px;}
+	.age { position: absolute; bottom: 46px; right: 46px; }
+	.top_wrapper { height: 1000px; }
+	.info_left { float: none; padding-top: 100px; width: 280px; margin: 0 auto;}
+	.info_playing, .info_works { width: 280px; height: 120px; font-size: 20px; }
+	.info_playing:after { font-size: 58px; right: 14px; }
+	.info_playing:before { left: 108px; }
+	.info_works { height: 74px; }
+	.info_works:before { left: 79px; }
+	.info_works:after { font-size: 58px; top: -3px; right: 14px; }
+	.singup_wrapper { float: none; width: 320px; margin-top: 30px; }
+	.singup_title { font-size: 20px; text-align: center; line-height: 26px; }
+	.singup_right { width: 300px; height: 500px; float: none; margin: 0 auto; }
+	.reg_input, .reg_state {height: 30px; float: none; background-position: 105% center;}
+	.reg_wrapper { padding-bottom: 0; width: 100%;}
+	.reg_form label { float: none; }
+	.mob_wrapper { width: 230px; float: left; }
+	.b_day { float: none; padding-left: 10px; width: 83px; margin-right: 0; background-position: 122% center;}
+	.reg_year { width: 70px; }
+	.reg_day { width: 65px; }
+	.send_btn { left: 47px; bottom: -20px; }
+	.center_title { font-size: 20px; padding-top: 30px; }
+	.news_wrapper { padding-top: 30px; width: 300px; margin: 0 auto; }
+	.news_item { width: 272px; /*float: none; margin: 0 auto;*/ }
+	.pic_wrapper, .news_pic, .wrapper_fix { width: 300px; height: 158px; }
+	.pic_wrapper img { width: 300px; }
+	.news_title { font-size: 14px; padding-top: 0; }
+	.news_text { width: 250px; font-size: 12px; }
+	.news_item { margin-right: 0; margin-bottom: 30px; }
+	.viwe_event { left: 67px; }
+	.nav_item { font-size: 10px; line-height: 20px; }
+	.adv_item { float: left; display: block; }
+	.advertising { width: 150px; margin: 0 auto; }
+	.adv1, .adv2, .adv3, .adv4, .adv5, .adv6, .adv7, .adv8 { margin-right: 0; margin-left: 5px; margin-top: 10px; }
+	.adv11{margin-left: 0px;} .adv22{margin-left: 5px;} .adv33{margin-left: 33px;} .adv44{margin-left: 33px;} .adv55{margin-left: 17px;} .adv66{margin-left: 17px;} .adv77{margin-left: 31px;} .adv88{margin-left: 50px;}
+	footer { padding-bottom: 50px; }
+	nav { width: 300px; margin: 0 auto; }
+	.big-b a{padding-top: 16px;}
+	.container_main .container-inner .main-text-block3 h1, .reward-points-tex-box h1{font-size: 20px;text-align: center;}
+	.container_main .container-inner .main-text-block3 h2{font-size: 15px;}
+	.sub-menu-main,.sub-menu-main li{width: 100%;}
+ 	.sub-menu-main{height: 165px;}
+ 	.main-nav li:last-child{border-right: 0; }
+	.sub-menu-main li{border-right: 0;}
+    .in-box{padding: 20px;}
+    .in-box p{line-height: 17px;}
+    .tittle-for-boxes {font-size: 20px; text-align: center;}
+    .main-text-block4 .red-mark {margin-left: 20px;}
+    .main-text-block4 h1 , {text-align: center; font-size: 20px;}
+    .special-offer-tex-box h1{font-size: 20px;}
+    .main-text-block4 p{line-height: 21px; margin-top: 12px;}
+    .referal-link{box-shadow: 0px -4px 3px rgba(0,0,0,0.2);top: 100%;right: 2px;width: 300px;font-size: 14px;}
+ 	.sign-up-form input{width: 90%;}
+ 	.sign-up-form {margin-left: 0px;width: 320px;}
+ 	.sign-up-box {  width: 320px; height: auto; padding-bottom: 24px;  padding-top: 18px;}
+ 	.service-message-textarea textarea{width: 90%;}
+	.right-text-box, .left-image-box{width: 100%;float: none;}
+	.right-text-box{display: table-header-group;}
+	.left-image-box{display: table-footer-group;}
+	.right-text-box:after{content: "";position: absolute; width:100%; height:100%;top: 2%;left: 0%;border: 2px solid #a8b8ba;border-radius: 10px;}
+	.left-image-box img {width: 90%;margin-left: 5%;}
+	.right-text-box p,.right-text-box h1 {margin-left: 16px;}
+	.user-account-tape{height: 334px;}
+	.user-account-image{margin-left: 113px;}
+	.user-btn-container{margin-left: 0px; margin-top: 14px; width: 100%;}
+	.my-cash-fifa{margin-top: 10px;margin-left: 42px;}
+	.btn-name, .btn-followed, .btn-bio{margin: 5px auto; float:none;}
+	.account-btn-wrapper-bot{width: 100%; border-radius:5px; height: auto;}
+	.btn-main-account-bot{width: 100%;float: none; text-align: center; border-left: none;}
+ 	.btn-main-account-bot a{width: 100%; padding: 0;}
+ 	.btn-main-account-bot:first-child {border-radius: 5px 5px 0px 0px;}
+ 	.btn-main-account-bot:last-child {border-radius: 0px 0px 5px 5px;}
+ 	.btn-main-account-bot:first-child>a{border-radius: 5px 5px 0 0;}
+	.btn-main-account-bot:last-child>a { border-radius: 0 0 5px 5px;}
+ 	.sub-menu-tournament li {width: 100%; border: none;}
+ 	.sub-menu-wrapper {height: auto; }
+	.tournaments-wrapper{height: auto; padding-bottom: 10px;}
+	.ball-container img{margin: 10px 10px auto 8px; width: 50px; height: auto;}
+ 	.tournamen-box-text{width: 250px;}
+ 	.tournamen-box-text span {padding-top: 8px;font-size: 17px;}
+ 	.tournaments-buttons {width: 100%; margin-top: 10px;}
+ 	.btn-playinsave, .btn-join{width: 45%; height: 50px; margin:0px 8px;}
+	.btn-playinsave a, .btn-join a{height: auto; padding-left: 0px; text-align: center;}
+	.btn-join{width: 40% !important; height: 51px; margin: 0;}
+ 	.btn-playinsave{float: left;}
+ 	.btn-playinsave a{padding-top: 15px;}
+	.btn-join a{padding-top: 5px;}
+	.affiliate-form{display: table-footer-group; width: 320px;float: none;}
+	.affiliate-text-box{display: table-header-group;}
+    .affiliate-form-inner{width: 300px;}
+	.affiliate-form-inner textarea{width: 100%; }
+	.btn-affiliate{margin-left: 54px;margin-bottom: 5px;}
+	.affiliate-text-box p {padding-bottom: 30px;}
+	.affiliate-body {padding-top: 20px;padding-bottom: 50px;}
+	.affiliate-text-box h1 {font-size: 20px;}
+	.ligue-tape-right, .ligue-tape-left{width: 320px;}
+	.premier-btn {width: 100%;   box-shadow: 0px 1px 2px rgba(0,0,0,.7);}
+	.premier-btn a{border: none;}
+	.premier-nav,.find-match {height: auto; }
+	.td-first {margin-top: 19px;}
+	.find-match-btn {margin-top: 10px; margin-left: 0px;}
+	.td-second, .td-third {margin-top: 0px;}
+	.td-second select, .td-third select {margin: 0;}
+	.select-console{  margin-bottom: 10px;}
+	.challenge-tape p{padding-right: 36px; font-size: 13px;padding-bottom: 10px;}
+	.challenge-tape h5 {padding-top: 15px; font-size: 17px;}
+	.btn-on-challenge {  width: 145px;height: 32px; border-radius: 0px 0 0 14px; top:0px; font-size: 12px; line-height: 0px;}
+	.challenge-tape-second {height: auto; padding-bottom: 10px;}
+	.challenge-tape-second p{font-size: 13px;}
+	.create-challenge-btn { margin: auto;}
+	.banter-boxes {width: 320px;}
+	.user-message-box {padding-right: 4px;}  
+	.user-message-box img{margin: 4px 4px 12px 4px;}
+	.inner-message-box{padding-left: 64px;}
+	.user-message-box:first-child img{margin-top: 16px;}
+	.shout-field {width: 310px;margin: 13px auto;}
+	.shout-input {float: left; width: 176px;}
+	.ligue-tape-right, .ligue-tape-left{margin-top:0px;}
+	.forms-wrapper, .cashier-form-inner, .edit-account-form-inner, .edit-profile-form-inner{width: 304px; margin:0;}
+	.pay-form-top{width: 304px; height: 211px; margin-right: 0px; margin-top: 15px;}
+	.dep-amount {margin-top: 0px; height: auto;}
+	.pay-method {height: 80px;}
+	.dep-amount input {margin-right: 25px;}
+	.paypal {float: none;   padding-top: 1px;}
+	.form-cashier input, .form-cashier select, .form-edit-account select, .form-edit-account input, .form-edit-profile select, .form-edit-profile input{width: 96%; margin-left: 2%;}
+	.affiliate-form h3 {margin-left: 2%;}
+	.btn-cashier, .btn-edit-account , .btn-apd-profile{margin-left: 54px !important;   padding: 0px !important;}
+	.cashier-text-box, .edit-acc-text-box, .edit-prf-text-box, .edit-prf-text-box{display: table-header-group; position: relative;}
+	.forms-wrapper {display: table-footer-group; float: none;}
+	.cashier-text-box h6 {position: absolute;top: 51%;margin:0; display: block;}
+	.cashier-text-box h1,.edit-acc-text-box h1 , .edit-prf-text-box h1{margin-top: -8px;text-align: center;font-size: 21px;}
+	.cashier-text-box h4, .edit-acc-text-box h4, .edit-prf-text-box h4{margin: 14px 0 16px 0;}
+	.support-form-inner, .change-pass-pass-inner, .support-form, .change-pass-pass-form, .support-text-box, .change-pass-text-box{width: 320px;}
+	.support-text-box, .change-pass-text-box{display: table-header-group; float: none; padding-left: }
+	.support-form, .change-pass-pass-form{display: table-footer-group; margin-right: 0px; float: none; display: table-footer-group;}
+	.support-text-box h1, .change-pass-text-box h1 {text-align: center;font-size: 16px;}
+	.phone-tape {margin-top: 10px;margin-bottom: 10px;}
+	.support-form h3, .change-pass-pass-form h3 {padding-top: 16px; margin-left: 2%;}
+	.support-form select, .change-pass-pass-form input, .change-pass-pass-form p {width: 96%; margin-left: 2%;}
+	.support-message-textarea textarea{width: 96%; margin-left: 2%;}
+	.btn-support-form, .btn-change-pass-form {margin-left: 64px !important; padding: 0;}
+	.support-form-inner, .change-pass-pass-inner {padding-bottom: 12px;}
+	.phone-tape img, .support-text-box p, .change-pass-text-box p {margin-left: 2%;}
+	.phone-tape img{margin-right: 10px;}
+	.phone-tape span {font-size: 19px;}
+	.blue-reset-btn{margin: 15px auto;}
+	.blue-update-btn,.blue-apd-profile-btn{margin: 10px auto !important; float: none;}
+	.main-text-block5 h1{font-size: 20px;  text-align: center;}
+	.change_username input[type="text"]{margin-left: 0;}
+	.change_username .blue-change-username-btn{margin: 20px 0 0 0;}
+	.form-edit-profile select {float: left;}
+	.form-edit-profile p {float: none; margin-left: 2%;}
+	.p-last {padding-top: 10px !important;}
+	.preffered-platform{  margin-bottom: 15px;}
+	.user-rating-table{width: 100%;}
+	.left-object{width: 100%;}
+	.container-main-wiew-prifile{height: auto; border-radius: 15px 15px 0 0;}
+	.add-new-post-btn {border-radius: 14px 0 14px 0px;left: 57%;top: 25%;height: 54px;width: 128px; font-size: 12px;}
+	.reward-point-box{width: 96%; margin: 5px auto; float: none;}
+	.reward-point-box h2 {font-size: 14px;}
+	.image-box{height: 95px;}
+	.watched-games-boxes, .add-watched-games-form {width: 305px;}
+	.watched-games-btn {float: none; margin: 10px 0 0 60px;}
+	.add-watched-games-form .reg_state{background-position: 103% center; width: 100%;}
+	#followed-users-popup, #online-users-popup, #search-users-popup{width: 300px; margin-left: -150px;}
+	.popup-head{height: auto;padding-bottom: 10px;}
+	.search-users-form span {margin-left: 32px;margin-top:7px;display: block;}
+	.search-users-form input[type="text"] {margin: 15px auto;display: block;}
+	#accept-challenge2-popup ,#accept-challenge1-popup,#account-balance-popup,#create-challenge-popup{width: 300px;margin-left: -150px;}
+	#accept-challenge2-popup .popup-head h1, #accept-challenge1-popup .popup-head h1 {font-size: 14px;}
+	.accept-challenge-btn,.create-challenge-form-popup .accept-challenge-select {width: 135px;}
+	#accept-challenge1-popup .popup-head h1{padding-top: 15px;}
+	.accept-challenge1-form h2 {  margin-top: 20px;margin-left: 21px;}
+	.accept-challenge1-form span {margin-left: 21px; float: none;}
+	.accept-challenge1-form textarea{display: block; margin: 5px auto;}
+	.accept-popup-btn {margin: 0px auto; display: block; float: none;}
+	.message-table-head td, .message-table-body td {padding-left: 6px;}
+	.message-table-head .case{display: none;}
+	.up-down {left: -6px;}
+	.form-tape, .form-tape-ta {float: none; height: auto; width: 300px; margin: 4px auto;}
+	.form-tape input, .form-tape-ta textarea{display: block; width: 300px;}
+	.compose {padding: 5px;} .compose h2, .compose p{margin-left: 5px;}
+	.message-setting-btn{margin: 8px 0 0 5px;}
+	#account-balance-popup .popup-head h1, #create-challenge-popup .popup-head h1{font-size: 22px;}
+	.create-challenge-tape{width: 300px; margin: 0px auto; padding-left: 15px; height: auto;}
+	.send-challenge-btn {margin: 0px auto;display: block;float: none; margin-top: 10px;}
+	.left-part i{position: absolute;top:30px;left: 142px;}
+	.left-part {line-height: 30px;}
+	.user-status-c:after{bottom: -40px;right: 39px;}
+	#user-popup,#join-tour-popup{width: 300px !important; margin-left: -150px;}
+	.user-profile-popup{width: 100%; float: none; border-radius: 15px 15px 0 0; }
+	.user-profile-popup .user-profile-descr h1 {margin-top: 10px;}
+	.user-profile-popup .user-profile-descr {margin-left: 0px;}
+	#user-popup .user-table-body td {padding-left: 11px; font-size: 14px;}
+	.user-tape-popup {width: 100%;}
+	#join-tour-popup{padding: 0 0 10px 20px;}
+	#join-tour-popup p, .walk-btn{margin-left: 0px;}
+	#join-tour-popup ul {margin-top: 15px;}
+	.start-date {margin-top: 10px;}
+	.table-premier-ligue .tbl-head {font-size: 13px;}
+	.table-premier-ligue .tbl-body {font-size: 14px;}
+	.tournaments-buttons .btn-join{margin: 0 8px;}
+	.edit-acc-text-box p, .edit-prf-text-box p{margin-bottom: 15px;}
+	.bottom-offer-box{width: 100%;}
+	.top-header-line a{margin-bottom: 10px;}
+	.top-header-line h1, .main-text-block4 h1{font-size: 20px;}
+	.top-header-line span a{margin-left: 0;}
+	.choose-tour-boxes {width: 270px;}
+	#join-tour-popup .choose-tour-desc {font-size: 11px;}
+	#change-pass-valid .error{margin-right: 5px;}
+	#change-user-valid .error {display: block; padding-left: 10px;}
+	#edit-profile-valid label.error, #cashier-valid label.error{margin-left: 2%;}
+	#service-message-valid label.error, #sign-up-valid label.error{margin-left: 5%;}
+	.jInputFile-fakeButton {left: 111px !important;top: 470px !important;}
+	.affiliate-photo-box, .h3-edit-profile {margin-left: 2% !important;}
+	.jInputFile-fileName {margin-left: 111px !important; margin-top: 66px !important;}
+	}
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+ 	.big-b{line-height: 20px; }
+ 	.big-b a{padding-top: 26px; }
+ 	.login_form {float: left;width: 606px;}
+ 	.main-nav li{padding: 0px 17px; }
+ 	.main-nav li a{font-size: 11px; padding:0px 5px;}
+	.btn-group1 .my-acc {margin-left: 50px; }
+	.btn-group1 {margin-top: 10px; float: right;}
+	.btn-group2 {margin-top: 8px; float: right; margin-right: 10px;}
+	.inner { width: 700px; }
+	.email_wrapper, .btn_wrapper, .login_pass, .age { margin-top: 0; padding-top: 0; }
+	.info_left { float: none; width: 384px; margin: 0 auto; padding-top: 100px; }
+	.singup_wrapper { margin-top: 20px; }
+	.news_wrapper { width: 329px; margin: 0 auto; padding-top: 20px; }
+	.news_item { margin-bottom: 25px; }
+	.center_title  { padding-top: 20px; }
+	.nav_item { font-size: 14px; }
+	.sub-menu-main li a {font-size: 12px;}
+	.service-message-textarea textarea{width: 90;}
+	.sign-up-box2 {height: 324px;}
+	.join-ligue a{font-size: 12px;}
+	.sub-menu-main .last-link {line-height: 20px; padding-top: 8px;}
+	.user-account-image{margin-left: 40px;}
+	.user-btn-container{margin-left: 21px; margin-top: 10px;}
+	.my-cash-fifa{margin-top: 10px;margin-left: 42px;}
+	.btn-main-account-bot a{padding: 0 10px;font-size: 14px;}
+	.sub-menu-tournament li {width: 100px;}
+	.sub-menu-tournament li {width: 100px;}
+	.sub-menu-tournament li:last-child>a{line-height: 21px; padding-top: 7px;}
+	.sub-menu-tournament li a{font-size: 15px;}
+	.tournaments-buttons{width: 200px;}
+ 	.btn-playinsave, .btn-join{width: 100px; font-size: 14px}
+	.ligue-tape-right, .ligue-tape-left{width: 700px;}
+	.find-match-btn{margin-left: 301px;}
+	.banter-boxes{width: 500px;}
+	.shout-input{width: 366px;}
+	.shout-field{width: 500px;}
+	.td-second select, .td-third select {margin-right: 46px;}
+	.ligue-tape-right, .ligue-tape-left{margin-top:0px;}
+  	.cashier-text-box h1 {margin-top: 62px; font-size: 20px;}
+  	.cashier-text-box h4 {  margin: 19px 0 14px 0;}
+  	.support-text-box, .change-pass-text-box{width: 205px;}
+  	.support-text-box h1, .change-pass-text-box h1{font-size: 20px;}
+  	.phone-tape span {font-size: 19px;}
+	.phone-tape img {margin-right: 10px;}
+    .edit-acc-text-box h1 , .edit-prf-text-box h1{font-size: 17px;}
+  	.w140{width: 130px;}
+	.w70{width: 85px;}
+	.user-table-body{font-size: 15px;}
+	.accept-challenge-btn {margin-left: 0px;}
+	#user-popup, #join-tour-popup{width: 700px !important; margin-left: -350px;}
+	.sub-menu-main .fix-link{padding-top: 17px !important;}
+  	#change-user-valid label.error{display: block;float: right;width: 256px;margin-top: 10px;}
+
+  }
+@media screen and (min-width: 1025px) and (max-width: 1178px) {
+	.inner { width: 1000px; }
+ 	.nav_item {font-size: 21px;}
+ 	.btn-group1 .my-acc {margin-left: 70px;}
+	.social { margin: 52px 10px 0 20px; }
+	.email_wrapper, .btn_wrapper, .login_pass { width: 160px; }
+	.singup_wrapper, .singup_right { width: 600px; }
+	.pic_wrapper, .news_pic, .wrapper_fix, .pic_wrapper img  { width: 300px; height: 158px; }
+	.news_item { width: 271px; }
+	.news_wrapper { width: 966px; margin: 0 auto; }
+	.news_title { font-size: 14px; }
+	.news_text { width: 250px; font-size: 13px; }
+	.viwe_event { left: 66px; }
+	.advertising { width: 618px; margin: 0 auto; }
+	.sub-menu-main .last-link {line-height: 20px; padding-top: 8px;}
+	.btn-main-account-bot a{padding: 0 21px}
+	.sub-menu-tournament li {width: 142px;}
+	.sub-menu-tournament li a{font-size: 15px;}
+	.sub-menu-tournament li:last-child {width: 148px;}
+	.ligue-tape-right{width: 437px;}
+	.ligue-tape-left{width: 553px;}
+    .td-second select, .td-third select{margin-right: 45px;}
+	.form-tape, .form-tape-ta {width: 486px;}
+	.message-setting-btn {margin-left: 120px;}
+	#user-popup, #join-tour-popup{width: 1000px !important; margin-left: -500px;}
+	.sub-menu-main .fix-link{padding-top: 17px !important;}
+}
+@media (max-width: 980px){
+	.fifa15, .fifa16 {display: none;}
+}

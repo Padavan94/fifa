@@ -1,0 +1,2910 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,800,400);
+@font-face {
+  font-family: EA Sports Covers Bold;
+  src: url("../fonts/EA_Sports_Covers_SC.eot") format("eot"),
+  url("../fonts/EA_Sports_Covers_SC.woff") format("woff"),
+  url("../fonts/EA_Sports_Covers_SC.ttf") format("truetype"),
+  url("../fonts/EA_Sports_Covers_SC.svg#EASportsCoversSC-Bold") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+.main-logo img {
+  margin: 11px 0 16px 0; }
+
+.btn-star, .btn-lock {
+  float: left;
+  margin-right:5px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../img/btn-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center; }
+  .btn-star img, .btn-lock img {
+    margin-top: 9px;
+    margin-left: 10px;
+    float: left; }
+  .btn-star:hover, .btn-lock:hover {
+    background-image: url("../img/btn-bg-hover.png"); }
+
+.btn-lock img {
+  margin-top: 11px;
+  margin-left: 13px; }
+
+.btn-group1 {
+  height: 35px;
+  margin-top: 49px;
+  float: left; 
+  font-family: 'Open Sans', sans-serif;
+}
+  .btn-group1 .my-acc {
+    height: 35px;
+    width: 120px;
+    float: left;
+    margin-left: 225px; 
+    
+}
+  .btn-group1 .my-log {
+    height: 35px;
+    width: 166px;
+    float: left;
+    margin-left: 32px; }
+
+.btn-group2 {
+  float: left;
+  text-align: center;
+  margin-left: 42px;
+  margin-top: 33px; }
+  .btn-group2 .btn1, .btn-group2 .btn2, .btn-group2 .btn3, .btn-group2 .btn4 {
+    line-height: 61px;
+    margin: 7px;
+    width: 61px;
+    height: 53px;
+    background-image: url("../img/btn-bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    float: left;
+    vertical-align: middle; }
+    .btn-group2 .btn1:hover, .btn-group2 .btn2:hover, .btn-group2 .btn3:hover, .btn-group2 .btn4:hover {
+      background-image: url("../img/btn-bg-hover2.png"); }
+
+.my-acc a, .my-log a {
+  line-height: 35px;
+  vertical-align: middle;
+  margin-left: 12px;
+  font-size: 12px;
+  color: #6c6c6c;
+  float: left;
+  text-decoration: underline; }
+  .my-acc a:hover, .my-log a:hover {color:rgb(234,193,81);}
+  .my-acc a:hover .btn-star {background-image: url("../img/btn-bg-hover.png");}
+  .my-log a:hover .btn-lock {background-image: url("../img/btn-bg-hover.png");}
+
+.body-wrapper {
+  width: 100%;
+  height: auto;
+  padding-bottom:50px;
+  background-image: url("../img/main_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.main-nav {
+  width: 100%;
+  height: 71px;
+  background-image: url("../img/bg-menu.png");
+  font-family: EA Sports Covers Bold; 
+}
+  
+  .main-nav li {
+    float: left;
+    display: block;
+    border-right: 1px solid black;
+  }
+
+    .main-nav li a {
+      color: #b8b8b8;
+      display:block;
+      height: 71px;
+    padding: 0px 32px;  }
+    .main-nav li:hover {
+      background: linear-gradient(to top, #eaaa23, #fbeaa4); }
+      .main-nav li:hover a {
+        color: black; }
+    .main-nav li img {margin-top:30px;} 
+    .main-nav li svg {
+      margin-top: 20px; }
+      .main-nav li svg {width:22px;height:22px;margin-right:5px;}
+      .main-nav li svg path {fill:rgb(232,187,65);}
+      .main-nav li a:hover svg path {fill:#000;}
+  .main-nav li::after {
+    content: ""; }
+    .main-nav li::after a {
+      text-decoration: none;
+      display: block;
+      margin-top: 30px;
+      color: #b8b8b8; }
+  .main-nav .menu-inner-wrapper {
+    float: none; }
+
+.body-wrapper{
+  position: relative;
+}
+
+.container_main {
+  background-color: rgba(14, 14, 14, 0.74);
+  width: auto;
+  height: auto;
+  margin-top: 36px;
+  border-radius: 20px; 
+  color: white;
+  position:relative;
+}
+  .container_main .main-text-block{
+    margin-top: 20px;
+    padding-top:10px;
+    width: 100%;
+    line-height: 30px;
+  }
+    .container-inner{
+      position:relative;
+      padding:25px 0 25px 0;
+      margin: 0 auto;
+      width: 95%;
+    }
+    .bord-top{
+      border-top: 2px solid rgba(255,255,255,.2)
+    }
+    .bord-top:first-child {border-top:0;}
+    .container_main .main-text-block h2{
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .container_main .main-text-block h4{
+      padding-left: 60px;
+    }
+    .container_main .main-text-block p{
+      padding-left: 90px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .container_main .main-text-block h3{
+      padding-left: 70px;
+    }
+    .container_main .main-text-block h2,
+    .container_main .main-text-block h3,
+    .container_main .main-text-block h4{
+      font-family: EA Sports Covers Bold;
+    }
+/*# sourceMappingURL=forPages.css.map */
+@media (min-width:768px) and (max-width:992px) {
+  .main-nav li a {}
+}
+@media (max-width:768px) {
+  .main-nav li {width:20%;text-align:center;}
+  .main-nav li a {padding:0;}
+  .main-nav li a svg, .main-nav li a img {margin-right:0;}
+}
+
+/*terms-page*/
+
+.main-text-block2{
+    margin-top: 20px;
+    padding-top:10px;
+    width: 100%;
+    line-height: 30px;
+}
+.container_main .main-text-block2>h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: EA Sports Covers Bold;
+}
+.container_main .main-text-block2 h2{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 27px;
+    font-family: EA Sports Covers Bold;
+}
+.container_main .main-text-block2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 10px
+}
+
+/*user-profile*/
+
+.button-m{
+  font-family: EA Sports Covers Bold;
+  font-size: 18px;
+  float: left;
+  display: ;
+  width: 25%;
+  height: 70px;
+  background-color: #000;
+  position: relative;
+  text-align: center;
+  line-height: 71px;
+  background: -webkit-linear-gradient(bottom, #f1b931, #f8db7d);
+  background: -o-linear-gradient(bottom, #f1b931, #f8db7d);
+  background: linear-gradient(to top, #f1b931, #f8db7d);
+  border-bottom: 2px solid #e7a32b;
+  border-top: 1px solid #e6b01b;
+  border-left: 1px solid #e6b01b;
+  border-right: 1px solid #e6b01b;
+}
+.button-m a{
+  color: #181817;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.button-m a:hover{
+    background: linear-gradient(to top, #f0b824, #cc9b04);
+}
+.button-wraper{
+  height: 420px;
+  width: 100%;
+  position: relative;
+}
+.body-wrapper2 {
+  width: 100%;
+  height: auto;
+  padding-bottom:50px;
+  background-image: url("../img/main_bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*Rules*/
+
+.container_main .container-inner .main-text-block3 h1{
+    text-align: left;
+    font-size: 27px;
+    font-family: EA Sports Covers Bold;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.container_main .container-inner .main-text-block3 h2{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: EA Sports Covers Bold;
+}
+.container_main .container-inner .main-text-block3, p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 10px !important;
+}
+.container_main .main-text-block3 li{
+    margin-left: 14px;
+    margin-top: 10px !important;
+    font-size: 15px !important; 
+}
+.sub-menu-wrapper{
+    width: 100%;
+}
+.sub-menu-main{
+  font-family: EA Sports Covers Bold;
+  width: 70%;
+  height: 55px;
+}
+  .sub-menu-main li {
+    border-right: 1px solid black;
+    float: left;
+    display: block;
+    line-height: 55px;
+    width: 30%;
+    text-align: center;
+  }
+    .sub-menu-main li a {
+      padding: 0px 10px;
+      color: #b8b8b8;
+      display:block;
+      height: 55px;
+      background-image: url("../img/bg-menu.png");
+    }
+    .sub-menu-main a:hover {
+      background: linear-gradient(to top, #eaaa23, #fbeaa4);
+      color: black;
+    }
+
+/*FAQ*/
+
+.faq-wrap{
+  width: 100%;
+
+}
+.faq-inner{
+  width: 86%;
+  margin: 0px auto;
+  position: relative;
+  font-family: EA Sports Covers Bold;
+}
+.faq-inner p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.box-with-triangle-R, .box-with-triangle-L{
+  width: 100%;
+  background-color: red;
+  position: relative;
+  background: -webkit-linear-gradient(bottom, #f0b525, #fae596);
+  background: -moz-linear-gradient(bottom, #f0b525, #fae596);
+  background: -o-linear-gradient(bottom, #f0b525, #fae596);
+  background: linear-gradient(to top, #f0b525, #fae596);
+  border-bottom: 2px solid #e6a021;
+  margin-top: 23px;
+}
+.box-with-triangle-R:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0 15px 20px;
+  border-color: transparent transparent transparent #fae596;
+  left: 100%;
+  top: 0%;
+}
+.box-with-triangle-L:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 20px 15px 0px;
+  border-color: transparent #fae596 transparent transparent;
+  right: 100%;
+  top: 0%;
+}
+.tittle-for-boxes{
+  position: relative;
+  margin-top: 23px;
+  color: #fff;
+  font-size: 28px;
+}
+.box-with-triangle-R .box-with-triangle-R h2{
+  font-size: 19px;
+  color: #181817;
+}
+.in-box{
+  padding: 28px;
+}
+.in-box p{
+  padding-top: 15px;
+  line-height: 20pt;
+}
+.in-box h2{
+  text-transform: uppercase;
+}
+
+/*referal_programm*/
+
+.main-text-block4, .main-text-block5{
+  font-family: 'Open Sans', sans-serif;
+  position:relative;
+}
+.main-text-block4 h1, .main-text-block5 h1{
+    text-align: left;
+    font-size: 27px;
+    font-family: EA Sports Covers Bold;
+    margin-top: 10px;
+}
+.main-text-block4 p,.main-text-block4 ul, .main-text-block5 p, .main-text-block5 ul{
+    font-size: 15px;
+    margin-top: 11px;
+    line-height: 27px;
+}
+.main-text-block4 .yellow-mark, .main-text-block5 .yellow-mark{
+  list-style-image: url(../img/marker.png);
+  margin-left: 20px;
+}
+.main-text-block4 .red-mark{
+  list-style-image: url(../img/marker2.png);
+  margin-left: 60px;
+}
+.main-text-block4 span, .main-text-block5 span{
+  color: #f6ce5b;
+  font-weight: bold;
+}
+.main-text-block4 .last-span{
+  font-style: italic;
+  display: block;
+  margin-top: 14px;
+  padding-bottom: 24px;
+  font-weight: normal;
+}
+.referal-link{
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  width: 320px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 14px;
+  top: 0%;
+  right: 0%;
+  background-image: url(../img/twitter.png);
+  background-position: 98% center;
+  background-repeat: no-repeat;
+  line-height: 39px; 
+  font-size: 15px;
+}
+.referal-link a{
+  font-style: italic;
+  color: #0096ce;
+  font-weight: bold;
+  height: 39px;
+  padding-left: 15px;
+}
+.forCentered{
+  display: block;
+  width:100%;
+  height: 100%;
+}
+.inner-referal-link{
+  display: block;
+  width: 300px;
+  height: 32px;
+  border: 2px solid rgba(255,255,255,.5);
+  border-radius: 13px;
+  margin-right: 10px;
+  position: relative;
+  left: -19px;
+  text-align: center;
+}
+.inner-referal-link a{
+  color: #f6ce5b;
+}
+
+/*ARROW_BOX for tooltips*/
+.arrow_box {
+  display: none;
+  font-family: EA Sports Covers Bold;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  border: 1px solid #000000;
+  top: -156%;
+  left: 35%;
+  background: -webkit-linear-gradient(bottom, #f0b525, #fae596);
+  background: -moz-linear-gradient(bottom, #f0b525, #fae596);
+  background: -o-linear-gradient(bottom, #f0b525, #fae596);
+  background: linear-gradient(to top, #f0b525, #fae596);
+}
+.arrow_box:after, .arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.arrow_box:after {
+  border-color: rgba(214, 200, 77, 0);
+  border-top-color: #f0b525;
+  border-width: 11px;
+  margin-left: -11px;
+}
+.arrow_box:before {
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 12px;
+  margin-left: -12px;
+}
+/*sign_up*/
+
+.body-wrapper3{
+  background-image: url(../img/main_bg3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.sign-wrapper{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-family: EA Sports Covers Bold;
+  font-size: 27px;
+  color: white;
+}
+.sign-wrapper h1{
+  margin-bottom: 19px;
+}
+.sign-up-box, .sign-up-box2{
+  padding-top: 32px;
+  position: relative;
+  margin: 0px auto;
+  width: 467px;
+  height: 231px;
+  background: -webkit-linear-gradient(bottom, #f0b525, #fae596);
+  background: -moz-linear-gradient(bottom, #f0b525, #fae596);
+  background: -o-linear-gradient(bottom, #f0b525, #fae596);
+  background: linear-gradient(to top, #f0b525, #fae596);
+  box-shadow: -7px 7px 13px rgba(0,0,0,.51);
+}
+.sign-up-box2{
+  height: auto;
+  padding-bottom: 24px;
+}
+.sign-up-form{
+  width: 389px;
+  padding: auto;
+  position: relative;
+  margin-left: 40px;
+}
+.sign-up-form input, textarea, .affiliate-form input, textarea, .form-cashier select, .form-edit-account select, .form-edit-profile select, .support-form select, .support-form input, .change-pass-pass-form select, .change-pass-pass-form input{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  height: 40px;
+  width: 100%;
+  border-radius: 2px;
+  opacity: .7;
+  border: none;
+  padding-left: 18px;
+  color: #686464;
+  margin-top: 10px;
+  line-height: 40px;
+}
+.sign-up-btn{
+    width: 192px !important;
+    height: 40px;
+    border-radius: 2px;
+    background: #1b3256;
+    border: none;
+    color: #fff !important;
+    font-family:"EA Sports Covers SC Bold" !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 1 !important;
+}
+.sign-up-btn:hover{
+  background-color: #bc251e;
+}
+.social-icons{
+  width: 325px;
+  height: 90px;
+  margin: 0px auto;
+}
+.social-icons .social-icon{
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin: 12px;
+}
+.social-icons .social-icon svg{
+  width: 55px;
+  height: 55px;
+}
+.service-message-textarea textarea{
+  resize: none;
+  height: 108px;
+}
+
+/*how-it-works*/
+
+.main-row{
+  width: 100%;
+  margin-bottom: 28px;
+  position: relative;
+}
+.left-image-box, .right-text-box{
+  float: left;
+  position: relative;
+}
+.left-image-box{
+  width: 30%;
+}
+.left-image-box img{
+  width: 100%;
+}
+.right-text-box{
+  width: 67%;
+  margin-left: 3%;
+  border: 2px solid #a8b8ba;
+  border-radius: 11px;
+}
+.right-text-box h1{
+  font-size: 20px;
+  font-family:"EA Sports Covers SC Bold";
+  text-align: left;
+  color: #f4c954;
+  margin-left: 23px;
+  margin-top: 17px;
+}
+.right-text-box p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-left: 23px;
+  margin-bottom: 18px;
+}
+
+/*account*/
+
+.user-account-tape{
+  width: 100%;
+  height: 122px;
+  background: -webkit-linear-gradient(bottom, #111111, #1a1a19);
+  background: -o-linear-gradient(bottom, #111111, #1a1a19);
+  background: linear-gradient(to top, #111111, #1a1a19);
+  border-radius: 0px 0px 10px 10px;
+}
+.user-account-image{
+  width: 96px;
+  height: 96px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 67px;
+  margin-top: 14px;
+  padding: 5px;
+  border: 4px solid #a1a1a2;
+  box-shadow: inset 0px 0px 11px rgba(0,0,0,.6);
+  float: left;
+}
+.user-account-image svg{
+  margin-left: -15px;
+  margin-top: 6px;
+  height: 85px;
+  width: 105px;
+  fill: #a1a1a2;
+}
+.user-btn-container{
+  margin-left: 30px;
+  margin-top: 41px;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+  font-family:"EA Sports Covers SC Bold";
+}
+.user-btn-container:first-child{
+  margin-left: 0px;
+}
+.btn-name a,.btn-bio a,.btn-followed a{
+  color: #fff;
+}
+.btn-name,.btn-bio,.btn-followed{
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  float: left;
+  line-height: 35px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.6);
+}
+.btn-name{
+  background-image: url("../img/btn-bg3.png");
+  width: 115px;
+  height: 35px;
+}
+.btn-name:hover{
+  background-image: url("../img/btn-bg3-hover.png");
+}
+.btn-followed{
+  background-image: url("../img/btn-bg4.png");
+  height: 35px;
+  width: 172px;
+}
+.btn-followed:hover{
+  background-image: url("../img/btn-bg4-hover.png");
+}
+.btn-bio{
+  background-image: url("../img/btn-bg5.png"); 
+  height: 35px;
+  width: 58px;
+}
+.btn-bio:hover{
+  background-image: url("../img/btn-bg5-hover.png");  
+}
+.my-cash-fifa{
+  position: relative;
+  height: 60px;
+  width: 230px;
+  border: 2px solid #957a31;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.my-cash-fifa a{
+  display: block;
+}
+.my-cash-fifa h1{
+  margin-top: 15px;
+  background: -webkit-linear-gradient(bottom, #f1b931, #f8db7d);
+  background: -o-linear-gradient(bottom, #f1b931, #f8db7d);
+  background: linear-gradient(to top, #f1b931, #f8db7d);
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-family:"EA Sports Covers SC Bold";
+}
+.my-cash-fifa i{
+  font-weight: bold;
+  position: absolute;
+  background: -webkit-linear-gradient(bottom, #f1b931, #f8db7d);
+  background: -o-linear-gradient(bottom, #f1b931, #f8db7d);
+  background: linear-gradient(to top, #f1b931, #f8db7d);
+  -webkit-background-clip: text; 
+  color: transparent;
+  top: 14px;
+  left: 244px;
+}
+.my-cash-fifa a>h1:hover {
+  background: -webkit-linear-gradient(top, #f1b931, #f8db7d);
+  background: -o-linear-gradient(top, #f1b931, #f8db7d);
+  background: linear-gradient(to bottom, #f1b931, #f8db7d);
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+.account-btn-wrapper-bot{
+  width: 90%;
+  margin: 0px auto;
+  height: 52px;
+}
+.btn-main-account-bot{
+  font-family:"EA Sports Covers SC Bold";
+  height: 52px;
+  float: left;
+  border-left: 1px solid #ca960e;
+  line-height: 52px;
+  border-bottom: 1px solid #e8a421;
+  background: -webkit-linear-gradient(bottom, #f0b525, #fae596);
+  background: -o-linear-gradient(bottom, #f0b525, #fae596);
+  background: linear-gradient(to top, #f0b525, #fae596);
+}
+.btn-main-account-bot a{
+  color: #181817;
+  font-size: 18px;
+  height: 52px;
+  display: inline-block;
+  padding: 0px 31px;
+}
+.btn-main-account-bot a:hover{
+  background: -webkit-linear-gradient(bottom, #f2ba26, #c89700);
+  background: -o-linear-gradient(bottom, #f2ba26, #c89700);
+  background: linear-gradient(to top, #f2ba26, #c89700);
+  border-radius: 0 0 0 5px;
+}
+.btn-main-account-bot:first-child{
+  border-left: none;
+  border-radius: 0px 0px 0px 5px; 
+}
+.btn-main-account-bot:last-child{
+  border-radius: 0px 0px 5px 0px; 
+}
+.btn-main-account-bot:first-child>a{
+  border-radius: 0 0 0 5px;
+}
+.btn-main-account-bot:last-child>a{
+  border-radius: 0 0 5px 0;
+}
+
+/*tournament*/
+
+.sub-menu-tournament{
+  font-family: EA Sports Covers Bold;
+  width: 100%;
+  height: 55px;
+}
+  .sub-menu-tournament li {
+    border-right: 1px solid black;
+    float: left;
+    display: block;
+    line-height: 55px;
+    width: 163px;
+    text-align: center;
+  }
+  .sub-menu-tournament li:last-child{
+    border-right: none;
+  }
+    .sub-menu-tournament li a {
+      font-size: 17px;
+      color: #b8b8b8;
+      display:block;
+      height: 55px;
+      background-image: url("../img/bg-menu.png");
+    }
+.sub-menu-tournament a:hover{
+  background: linear-gradient(to top, #eaaa23, #fbeaa4);
+  color: black;
+}
+.tournaments-wrapper{
+  width: 100%;
+  height: 107px;
+  background: linear-gradient(to top, #cecece, #fff);
+  border-bottom: 1px solid #a9a9a9;
+}
+.ball-container{
+  height: 107px;
+  float: left;
+}
+.ball-container img{
+  margin: 15px 20px auto 20px;
+}
+.tournamen-box-text{
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+}
+.tournamen-box-text span{
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding-top: 20px;
+}
+.tournamen-box-text p{
+  font-style: 15px !important;
+  color: #434343;
+}
+.tournaments-buttons{
+  float: right;
+  width: 266px;
+}
+.btn-playinsave, .btn-join{
+  float: left;
+  width: 133px;
+  float: right;
+  height: 106px;
+  font-family: EA Sports Covers Bold;
+  font-size: 18px;
+}
+.btn-playinsave{
+  background: -webkit-linear-gradient(bottom, #f2b821, #fae596);
+  background: -o-linear-gradient(bottom, #f2b821, #fae596);
+  background: linear-gradient(to top, #f2b821, #fae596);
+}
+.btn-playinsave:hover{
+  background: -webkit-linear-gradient(top, #f2b821, #fae596);
+  background: -o-linear-gradient(top, #f2b821, #fae596);
+  background: linear-gradient(to bottom, #f2b821, #fae596);
+}
+.btn-playinsave a{
+    color: #181817; 
+}
+.btn-join{
+  background: -webkit-linear-gradient(bottom, #94110c, #b2221d);
+  background: -o-linear-gradient(bottom, #94110c, #b2221d);
+  background: linear-gradient(to top, #94110c, #b2221d);
+  color: #181817;
+}
+.btn-join:hover{
+  background: -webkit-linear-gradient(top, #94110c, #b2221d);
+  background: -o-linear-gradient(top, #94110c, #b2221d);
+  background: linear-gradient(to bottom, #94110c, #b2221d);
+}
+.btn-join a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 107px;
+    padding-left: 14px;
+    padding-top: 34px;
+    text-align: left;
+}
+.btn-playinsave a{
+    color: #181817;
+    display: block;
+    width: 100%;
+    height: 107px;
+    padding-left: 14px;
+    padding-top: 34px;
+}
+
+/*affiliate*/
+
+.affiliate-form, .support-form, .change-pass-pass-form{
+  float: left;
+  width: 467px;
+  height: auto;
+  padding-bottom: 20px;
+  background: -webkit-linear-gradient(bottom, #f0b525, #fae596);
+  background: -moz-linear-gradient(bottom, #f0b525, #fae596);
+  background: -o-linear-gradient(bottom, #f0b525, #fae596);
+  background: linear-gradient(to top, #f0b525, #fae596);
+  box-shadow: -7px 7px 13px rgba(0,0,0,.3);
+  margin-right: 23px;
+}
+.affiliate-form h3{
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 25px;
+} 
+.h3-edit-profile{
+  clear: both;
+  margin-left: 0px !important;
+}
+.affiliate-form-inner, .cashier-form-inner, .edit-account-form-inner, .edit-profile-form-inner{
+  width: 419px;
+  margin: 0px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.btn-affiliate{
+    margin-top: 5px;
+    padding-left: 0px !important;
+    width: 192px !important;
+    height: 40px;
+    border-radius: 2px;
+    background: #1b3256;
+    border: none;
+    color: #fff !important;
+    font-family:"EA Sports Covers SC Bold" !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 1 !important;
+    margin-left: 113px;
+}
+.btn-affiliate:hover{
+  background-color: #bc251e;
+}
+.affiliate-body{
+  padding-top: 50px;
+  padding-bottom: 128px;
+  background-position: 67% 26%;
+}
+.affiliate-text-box, .cashier-text-box, .edit-acc-text-box, .edit-prf-text-box{
+  color: #fff;
+}
+.affiliate-text-box h1, .cashier-text-box h1, .edit-acc-text-box h1, .edit-prf-text-box h1{
+  font-size: 27px;
+  text-align: left;
+  font-family:"EA Sports Covers SC Bold"
+}
+
+/*play*/
+
+.ligue-tape-left{
+  margin-top: 16px;
+  width: 650px;
+  float: left;
+}
+.top-head{
+  font-family: EA Sports Covers Bold;
+  height: 71px;
+  width: 100%;
+  background: -webkit-linear-gradient(bottom, #0d0d0d, #1e1e1d);
+  background: -moz-linear-gradient(bottom, #0d0d0d, #1e1e1d);
+  background: -o-linear-gradient(bottom, #0d0d0d, #1e1e1d);
+  background: linear-gradient(to top, #0d0d0d, #1e1e1d);
+  line-height: 71px;
+  text-align: center;
+}
+.top-head h1{
+  font-size: 27px;
+  color: #f3be31;
+}
+.premier-nav{
+  height: 53px;
+  background: -moz-linear-gradient(left, #f2ba26 0%, #fae391 50%, #f2ba26 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f2ba26), color-stop(50%,#fae391), color-stop(100%,#f2ba26)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #f2ba26 0%,#fae391 50%,#f2ba26 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #f2ba26 0%,#fae391 50%,#f2ba26 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #f2ba26 0%,#fae391 50%,#f2ba26 100%); /* IE10+ */
+  background: linear-gradient(to right, #f2ba26 0%,#fae391 50%,#f2ba26 100%); /* W3C */
+}
+.premier-btn{
+  float: left;
+  height: 53px;
+  line-height: 53px;
+  width: 25%;
+}
+.premier-btn a{
+  text-align: center;
+  border-left: 1px solid #dbb74b;
+  font-family: EA Sports Covers Bold;
+  display: block;
+  height: 100%;
+  color: #181817;
+}
+.premier-btn:first-child>a{
+  border: none;
+}
+.premier-btn a:hover{
+  color: #f3be31;
+  background: -webkit-linear-gradient(bottom, #0d0d0d, #1d1e1c);
+  background: -moz-linear-gradient(bottom, #0d0d0d, #1d1e1c);
+  background: -o-linear-gradient(bottom, #0d0d0d, #1d1e1c);
+  background: linear-gradient(to top, #0d0d0d, #1d1e1c);
+}
+.find-match{
+  font-family: 'Open Sans', sans-serif;
+  height: 209px;
+  background-color: #fff;
+}
+.td-first{
+    font-family: EA Sports Covers Bold;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.td-first h3{
+  display: block;
+  float: left;
+  font-size: 17px;
+}
+.find-match-btn{
+  width: 166px;
+  height: 22px;
+  float: left;
+  margin-left: 155px;
+  background-color: #1b3256;
+  line-height: 22px;
+  text-align: center;
+}
+.find-match-btn a{
+  font-size: 12px;
+  color: #fff;
+}
+.find-match-btn:hover{
+  background-color: #bc251e;
+}
+.td-second{
+  margin-top: 12px;
+  margin-left: 30px;
+}
+.td-second span, .td-third span{
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  display: block;
+  float: left;
+  color: #686464;
+}
+.td-second select, .td-third select{
+  width: 260px;
+  border: 1px solid #a5a5a5;
+  margin-right: 145px;
+
+}
+.td-second select option{
+  border: none;
+}
+.td-third{
+  margin-top: 8px;
+  margin-left: 30px;
+}
+.blue-tape{
+  padding-left: 30px;
+  font-family: EA Sports Covers Bold;
+  font-size: 17px;
+  line-height: 51px;
+  color: #fff;
+  height: 51px;
+  background: -webkit-linear-gradient(bottom, #007098, #00b5c7);
+  background: -moz-linear-gradient(bottom, #007098, #00b5c7);
+  background: -o-linear-gradient(bottom, #007098, #00b5c7);
+  background: linear-gradient(to top, #007098, #00b5c7);
+}
+.open-challenges{
+  width: 100%;
+}
+.challenge-tape, .challenge-tape-second{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  color: white;
+  position: relative;
+  height: 88px;
+  background: -webkit-linear-gradient(bottom, #0c0c0c, #191918);
+  background: -moz-linear-gradient(bottom, #0c0c0c, #191918);
+  background: -o-linear-gradient(bottom, #0c0c0c, #191918);
+  background: linear-gradient(to top, #0c0c0c, #191918);
+}
+.challenge-tape i{
+  font-weight: bold;
+  position: absolute;
+  color: #00b4c6;
+  right: 9%;
+  top: 31%;
+}
+.challenge-tape .secondI{
+    right:2%;
+}
+.challenge-tape h5{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  padding-top: 23px;
+}
+.challenge-tape p{
+  opacity: .8;
+  margin-left: 30px;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: normal;
+}
+.challenge-tape span{
+  text-decoration: underline;
+}
+.btn-on-challenge, .add-new-post-btn{
+  width: 135px;
+  height: 74px;
+  background-color: #a7e30f;
+  border-radius: 14px 0 0 14px;
+  position: absolute;
+  top: 17px; right: 0%;
+  font-family: EA Sports Covers Bold;
+  font-size: 17px;
+  line-height: 20px;
+}
+.btn-on-challenge a, .add-new-post-btn a{
+  display: block;
+  padding-top: 19px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  color: #151514;
+}
+.btn-on-challenge:hover, .add-new-post-btn:hover{
+  background-color: #caff42
+}
+
+.challenge-tape-second{
+  height: 108px;
+  padding-left: 30px;
+}
+.challenge-tape-second h5{
+  font-weight: bold;
+  padding-top: 20px;
+}
+.challenge-tape-second p{
+  opacity: .8;
+  line-height: 25px;
+  font-size: 15px;
+}
+.ligue-tape-right{
+  margin-top: 16px;
+  width: 472px;
+  float: right;
+  background-color: #0e0e0e;
+}
+.premier-btn-50{
+  width: 50%;
+}
+
+.banter-boxes{
+  width: 430px;
+  margin:0px auto;
+}
+.user-message-box{
+  margin-top: 10px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+}
+.user-message-box:first-child{
+  border-top: 1px solid #333333;
+}
+.user-message-box img{
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin-top: 10px;
+  float: left;
+  display: block;
+  margin-right: 26px;
+}
+.inner-message-box{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 12px;
+  padding-left: 74px;
+}
+.inner-message-box .user-msg-name{
+  color: #e9b52c;
+  font-size: 13px;
+}
+.inner-message-box .challenge{
+  margin-left: 3px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+  .inner-message-box .challenge a{
+    color: #959595;
+  }
+    .inner-message-box .challenge i{
+        font-size: 9px;
+        padding-left: 5px;
+  }
+.inner-message-box .msg-time{
+  float: right;
+  font-size: 12px;
+  color: #959595;
+}
+.inner-message-box p{
+  font-size: 13px;
+  color: white;
+}
+.shout-field{
+  height: 42px;
+  width: 430px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.shout-input{
+  float: left;
+  width: 296px;
+  height: 100%;  
+}
+.shout-btn{
+  float: left;
+  background-color: #a7e30f;
+  width: 134px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+.shout-btn:hover{
+  fae18ebackground: -webkit-linear-gradient(top, #fae18e, #f2bc29);
+  background: -moz-linear-gradient(top, #fae18e, #f2bc29);
+  background: -o-linear-gradient(top, #fae18e, #f2bc29);
+  background: linear-gradient(to bottom, #fae18e, #f2bc29);
+}
+  .shout-btn a{
+    color: #151514;
+    font-family: EA Sports Covers Bold;
+
+  }
+.shout-input{
+  outline: none;
+  border: none;
+  background-color: #2c2c2c;
+  color: white;
+  padding-left: 10px;
+}
+.footer-box{
+  height: 96px;
+  background-color: #0e0e0e;
+  padding-top: 23px;
+}
+.create-challenge-btn{
+  width: 248px;
+  padding: 0 !important;
+  text-align: center;
+  margin-left: 29px;
+}
+.create-challenge-btn a{
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.create-challenge-btn:hover{
+  background: -webkit-linear-gradient(top, #007098, #00b5c7);
+  background: -moz-linear-gradient(top, #007098, #00b5c7);
+  background: -o-linear-gradient(top, #007098, #00b5c7);
+  background: linear-gradient(to bottom, #007098, #00b5c7);
+}
+.join-ligue {
+  height: 51px ;
+  width: 147px;
+}
+.join-ligue a{
+  font-size: 17px;
+  padding-top: 6px;
+  height: 51px ;
+  line-height: 20px;
+  padding-left: 40px;
+}
+
+/*premier ligue*/
+
+.table-premier-ligue{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  color: #282828; 
+  background: #e2e2e2;
+}
+.table-premier-ligue td{
+  border: 1px solid white;
+  height: 30px;
+  vertical-align: middle;
+}
+.tbl-body tr:hover{
+  background: #00c6d3;
+}
+.tbl-body tr:hover i{
+  opacity: 1;
+}
+.tbl-head, .user-table-head{
+  font-weight: bold;
+  background: -webkit-linear-gradient(bottom, #cfcfcf, #fefefe);
+  background: -moz-linear-gradient(bottom, #cfcfcf, #fefefe);
+  background: -o-linear-gradient(bottom, #cfcfcf, #fefefe);
+  background: linear-gradient(to top, #cfcfcf, #fefefe);
+  font-size: 18px;
+  color: #282828;
+}
+.tbl-body{
+  font-size: 16px;
+  text-align: center;
+}
+.bld{
+  font-weight: bold;
+  text-align: center;
+}
+.lft{
+  text-align: left;
+  padding-left: 5px;
+}
+.tbl-body i{
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding-left: 4px;
+  opacity: 0;
+}
+
+/*cashier*/
+.h3-cashier, .h3-edit-account{
+  color: #272727;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-cashier, .form-edit-account, .form-edit-profile{
+  height: auto;
+  padding-bottom: 44px;
+  margin-top: 10px;
+}
+.pay-form-top{ 
+  width: 467px;
+  font-family: EA Sports Covers Bold;
+  float: left;
+  margin-right: 23px;
+
+}
+.pay-form-top h2{
+  font-family: EA Sports Covers Bold;
+  font-size: 17px;
+}
+.pay-form-top span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.pay-form-top input, i{
+    float: right;
+}
+.dep-amount{
+  margin-top: 17px;
+  height: 40px;
+  line-height: 40px;
+}
+.dep-amount input{
+  padding-left: 10px;
+  width: 261px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  color: #686464;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.dep-amount i{
+  font-size: 15px;
+  padding-right: 5px;
+  padding-top: 11px;
+  font-weight: bold;
+}
+.pay-method{
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+.paypal{
+  width: 176px;
+  height: 40px;
+  background-color: #fff;
+  float: right;
+}
+.paypal img{
+  margin: 6px auto;
+  display: block;
+}
+.forms-wrapper{
+  width: 470px;
+  float: left;
+  margin-right: 23px;
+}
+
+.cashier-text-box h6, .edit-acc-text-box h6, .edit-prf-text-box h6{
+  margin-top: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.cashier-text-box{
+   font-family: 'Open Sans', sans-serif;
+}
+.cashier-text-box .bonus{
+  font-weight: bold;
+  color: #e8b93d;
+}
+.cashier-text-box h1{margin-top: 74px;}
+.edit-acc-text-box h1, .edit-prf-text-box h1{margin-top: 10px;}
+.cashier-text-box h4, .edit-acc-text-box h4, .edit-prf-text-box h4{
+  font-weight: bold;
+  margin: 37px 0 21px 0;
+}
+.cashier-text-box p, .edit-acc-text-box p, .edit-prf-text-box p{
+  line-height: 20px;
+}
+.btn-cashier, .btn-edit-account, .btn-apd-profile{
+  font-size: 18px !important;
+}
+.cashier-form-inner select, .support-form-inner select, .edit-account-form-inner select, .edit-profile-form-inner select{
+    background-image: url(../img/arrow.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+   -ms-appearance: none;
+    appearance: none!important;
+}
+
+/*support*/
+
+.support-form , .change-pass-pass-form{
+  float: left;
+  width: 467px;
+  height: 320px;
+  background: -webkit-linear-gradient(bottom, #f0b525, #fae596);
+  background: -moz-linear-gradient(bottom, #f0b525, #fae596);
+  background: -o-linear-gradient(bottom, #f0b525, #fae596);
+  background: linear-gradient(to top, #f0b525, #fae596);
+  box-shadow: -7px 7px 13px rgba(0,0,0,.4);
+  margin-right: 23px;
+}
+.support-form h3, .change-pass-pass-form h3{
+  margin-left: 25px;
+  font-weight: bold;
+  padding-top: 46px;
+  color: #272727;
+  font-family: 'Open Sans', sans-serif;
+}
+.support-form-inner, .change-pass-pass-inner{
+  width: 419px;
+  margin: 0px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.btn-support-form{
+    margin-top: 5px;
+    padding-left: 0px !important;
+    width: 192px !important;
+    height: 40px;
+    border-radius: 2px;
+    background: #bc251e;
+    border: none;
+    color: #fff !important;
+    font-family:"EA Sports Covers SC Bold" !important;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    opacity: 1 !important;
+    margin-left: 113px;
+}
+.btn-change-pass-form{
+    margin-top: 5px;
+    padding-left: 0px !important;
+    width: 192px !important;
+    height: 40px;
+    border-radius: 2px;
+    background: #1b3256;
+    border: none;
+    color: #fff !important;
+    font-family:"EA Sports Covers SC Bold" !important;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    opacity: 1 !important;
+    margin-left: 113px
+}
+.btn-support-form:hover{
+  background-color: #1b3256;;
+}
+.btn-change-pass-form:hover{
+  background-color: #bc251e;
+}
+.support-text-box, .change-pass-text-box{
+  color: #fff;
+  width: 500px;
+  float: left;
+}
+.support-text-box h1, .change-pass-text-box h1{
+  font-size: 27px;
+  text-align: left;
+  font-family:"EA Sports Covers SC Bold"
+}
+.support-text-box p, .change-pass-text-box p, .change-pass-pass-form p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.change-pass-pass-form p{
+  margin-left: 25px;
+}
+.phone-tape{
+  margin-top: 20px;
+  line-height: 35px;
+}
+.phone-tape img{
+  margin-top: 5px;
+  float: left;
+  margin-right: 33px;
+}
+.phone-tape span{
+  font-size: 27px;
+  font-family:"EA Sports Covers SC Bold";
+  color: #f4c954;
+  text-shadow: -1px 1px 1px rgba(0,0,0,.7);
+}
+.support-message-textarea textarea{
+  width: 100%;
+  resize: none;
+  padding-top: 10px;
+  height: 108px;
+}
+
+/*RESET RECORDS*/
+.blue-reset-btn:hover, .blue-update-btn:hover, .blue-change-username-btn:hover, .blue-apd-profile-btn:hover, .blue-change-profile-btn:hover{
+  background: -webkit-linear-gradient(top, #0080a3, #00b5c7);
+  background: -moz-linear-gradient(top, #0080a3, #00b5c7);
+  background: -o-linear-gradient(top, #0080a3, #00b5c7);
+  background: linear-gradient(to bottom, #0080a3, #00b5c7);
+}
+  .blue-reset-btn, .blue-update-btn, .blue-change-username-btn, .blue-apd-profile-btn, .blue-change-profile-btn{
+    font-size: 17px !important;
+    display: block !important;
+    font-family:"EA Sports Covers SC Bold" !important;
+    color: #fff !important;
+    border: 0;
+    outline: none;
+    width: 190px;
+    height: 52px !important;
+    margin-top: 20px !important ;
+    text-align: center !important;
+    line-height: 52px !important;
+    background: -webkit-linear-gradient(bottom, #0080a3, #00b5c7);
+    background: -moz-linear-gradient(bottom, #0080a3, #00b5c7);
+    background: -o-linear-gradient(bottom, #0080a3, #00b5c7);
+    background: linear-gradient(to top, #0080a3, #00b5c7);
+    opacity: 1 !important;
+  }
+  .blue-apd-profile-btn{
+    margin: 15px auto;
+    width: 200px !important;
+  }
+
+  /*UPDATE ACCOUNT*/ 
+.bold{
+  font-weight: bold;
+  color: #fff !important;
+}
+.blue-update-btn{
+  float: right;
+  margin-top: -24px;
+}
+
+/*CHANGE USERNAME*/
+
+.user-name-text-box, .change_username span, .edit-acc-text-box, .edit-prf-text-box{
+  font-family: 'Open Sans', sans-serif;
+}
+.change_username input{
+  margin-left: 25px;
+}
+.change_username .blue-change-username-btn{
+  margin-left: 151px;
+}
+
+/*EDIT PROFILE*/
+.affiliate-photo-box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 20px;
+  float: left;
+}
+
+.h3-edit-profile, .form-edit-profile p{
+  color: #272727;
+  font-weight: bold;
+}
+.form-edit-profile p{
+  float: left;
+}
+.form-edit-profile select{
+  float: right;
+}
+.preffered-platform{
+  width: 274px !important;
+}
+.p-first{
+  padding-top: 9px;
+}
+.p-last{
+  padding-top: 19px
+}
+.preffered-game{
+  width: 274px !important;
+  margin-right: 0px;
+}
+.preffered-consol{
+  width: 158px !important;
+}
+
+/*wiew profile*/
+.left-object{
+  float:left;
+  width: 50%;
+}
+.container-main-wiew-prifile{
+  border-radius: 15px 0 0 15px;
+  position: relative;
+  height: 315px;
+}
+.user-frame{
+  width: 100%;
+  float: left;
+  font-family:"EA Sports Covers SC Bold"
+}
+.user-image{
+  color: #64a901;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  width: 156px;
+  height: 160px;
+  border: 3px solid #64a901;
+  background-color: #fff;
+  float: left;
+}
+.user-image img{
+  display: block;
+  margin: 12px auto;
+}
+.status{
+  padding: 10px 0 0 7px;
+}
+.status span{
+  margin-left: 8px;
+}
+.status-marker{
+  margin-top: 1px;
+  height: 11px;
+  width: 11px;
+  background-color: #64a901;
+  border-radius: 50%;
+  float: left;
+}
+.user-profile-descr{
+  margin-left: 18px;
+  float: left;
+}
+.user-profile-descr h1{
+  font-style: 17px;
+}
+.blue-change-profile-btn{
+  width: 127px;
+}
+.add-new-post-btn{
+  font-size: 18px;
+  border-radius: 0px 14px 14px 0px;
+  left: 0%;
+  top: 66%;
+}
+.user-rating-table{
+  width: 50%;
+  color: white;
+  float: left;
+
+}
+.user-table{
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #282828; 
+  background: #e2e2e2;
+}
+.user-table-head{
+  width: 100%;
+  font-family:"EA Sports Covers SC Bold";
+  font-size: 30px;
+  color: #4b4842;
+  text-align: center;
+}
+.user-table-head td{
+  vertical-align: middle;
+}
+.user-table-body{
+  font-size: 16px;
+  font-weight: 660;
+}
+.user-table-body td{
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 30px;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+.w140{
+  width: 141px;
+}
+.w70{
+  width: 80px;
+}
+
+/*REWARD POINTS*/
+
+.reward-points-tex-box, .rewar-point-boxes, .special-offer-tex-box{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.reward-points-tex-box h1, .special-offer-tex-box h1, .top-header-line h1{
+  font-size: 27px;
+  font-family:"EA Sports Covers SC Bold";
+}
+.rewar-point-boxes{
+  width: 100%;
+}
+.reward-point-box{
+  margin-top: 20px;
+  width: 49%;
+  height: auto;
+  border: 2px solid #7a9394;
+  border-radius: 7px;
+  position: relative;
+}
+.box-left{
+  float: left;
+}
+.box-right{
+  float: right;
+}
+.image-box{
+  position: relative;
+  width: 92px;
+  float: left;
+  height: 80px;
+  text-align: center;
+}
+.image-box img{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.reward-point-box h2{
+  font-size: 17px;
+  color: #f4c954;
+  margin-top: 8px;
+  font-family:"EA Sports Covers SC Bold";
+}
+.reward-point-box span{
+  position: absolute;
+  top: 12%;
+  right: 3%;
+}
+.reward-point-box p{
+  padding-left: 4px;
+}
+
+/*watched games*/
+
+.watched-games-boxes{
+  margin-top: 23px;
+  width: 400px;
+}
+.watched-games-box{
+  height: 40px;
+  width: 100%;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #686464 !important;
+  line-height: 26px;
+  padding: 7px 7px 7px 7px;
+  margin-bottom: 5px;
+}
+
+.watched-games-box input{
+  float: left;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #a5a5a5;
+  appearane: none;
+  background-color: white;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.watched-games-box span{
+  color: #686464 !important;
+  font-weight: normal;
+}
+.close-btn{
+  float: right;
+}
+.watched-games-text-block{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #29676e;
+}
+.watched-games-find-match h2{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family:"EA Sports Covers SC Bold";
+}
+.add-watched-games-form{
+  width: 400px;
+}
+.add-watched-games-form .reg-state{
+  opacity: 1;
+}
+.add-watched-games-form .td-second, .add-watched-games-form .td-third{
+  margin-left: 0px;
+}
+.add-watched-games-form .td-second select, .add-watched-games-form .td-third select{
+  margin-right: 0px;
+  opacity: 1;
+  font-family: 'Open Sans', sans-serif;
+}
+.add-watched-games-form span{
+  color: #fff;
+}
+.watched-games-btn{
+  float: right;
+  margin-top: 10px;
+}
+
+/*Special offers*/
+.special-offers-container{
+  border-radius: 20px 20px 0 0;
+}
+.special-offer-tex-box h1:last-child{
+  margin: 12px 0 12px 0;
+}
+.special-offer-image-boxes{
+  width: 100%;
+}
+.feautured-offer-box{
+  width: 224px;
+  float: left;
+  margin-right: 20px;
+}
+.feautured-head{
+  height: 43px;
+  background-color: #00c7d3;
+  text-align: center;
+  font-family:"EA Sports Covers SC Bold";
+}
+.feautured-head span{
+  color: #151515;
+  font-size: 17px;
+  line-height: 21px;
+}
+.feautured-head span:last-child{
+  font-size: 13px;
+}
+.featured-offer-bottom{
+  background-color: #fff;
+}
+.top-header-line{
+  font-family: 'Open Sans', sans-serif;
+  height: 27px;
+}
+.top-header-line h1{
+  color: #474747;
+  float: left;
+}
+.top-header-line span a{
+  color: #474747;
+  float: left;
+  margin-left: 26px;
+  padding-top: 10px;
+}
+.top-header-line a{
+  padding-top: 10px;
+  color: #29d4df;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: bold;
+  float: right;
+}
+
+.bottom-offers-boxes{
+  margin-top: 24px;
+  width: 100%;
+}
+.bottom-offer-box{
+  width: 49%;
+  border: 1px solid #acacac;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 2%;
+}
+.bottom-offer-box img{
+  margin: 8px;
+  float: left;
+}
+.bottom-offer-box h6{
+  margin: 8px 0 0 8px;
+  color: #1a3256;
+  display: block;
+}
+.bottom-offer-box .top-descr{
+  font-weight: normal;
+  display: block;
+  color: #808080;
+  margin-top: 7px;
+}
+.bottom-offer-box .pay-status{
+  margin-top: 5px;
+  color: #29d4df;
+  display: inline-block;
+  font-size: 16px;
+  border-right: 1px solid #acacac;
+  padding-right: 10px;
+}
+.bottom-offer-box i{
+  float: none;
+  margin-right: 5px;
+}
+.bottom-offer-box .reward-points{
+  width: 174px;
+  height: 25px;
+  background-color: #29d4df;
+  color: #2b2b2b;
+  float: none;
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+  top: 73px;
+  left: 83px;
+}
+.bottom-offer-box .reward-points span{
+  display: block;
+  text-align: center;
+  float: none
+}
+.bottom-offer-box .num-reward-points{
+  float: left;
+  display: inline-block;
+}
+
+/*POPUPS*************************************/
+
+.popup-head{
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: -webkit-linear-gradient(bottom, #0c0c0d, #20201f);
+  background: -moz-linear-gradient(bottom, #0c0c0d, #20201f);
+  background: -o-linear-gradient(bottom, #0c0c0d, #20201f);
+  background: linear-gradient(to top, #0c0c0d, #20201f);
+}
+.popup-head h1{
+  font-size: 27px;
+  color: #f3be31;
+  font-family:"EA Sports Covers SC Bold";
+}
+.popups-close-btn, .pops-close2{
+  height: 47px;
+  width: 47px;
+  position: absolute;
+  background-color: #00f1ff;
+  border-radius: 13px;
+  top: -7% !important;
+  right: -1% !important;
+  cursor: pointer;
+}
+.popups-close-btn i, .pops-close2 i{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  float: none;
+  color: white;
+  font-size: 35px;
+  top:0;left:0;right:0;bottom:0;
+  margin-top: 5px;
+  text-shadow: -1px 0px 2px rgba(0,0,0,.5)
+}
+.popups-close-btn:hover, .pops-close2:hover{
+  background-color: #01dce9;
+}
+.popup-form-button{
+  background: -webkit-linear-gradient(bottom, #00b5c7, #0080a3);
+  background: -moz-linear-gradient(bottom, #00b5c7, #0080a3);
+  background: -o-linear-gradient(bottom, #00b5c7, #0080a3);
+  background: linear-gradient(to top, #00b5c7, #0080a3);
+  font-size: 25px;
+  text-align: center;
+  line-height: 52px;
+  font-family:"EA Sports Covers SC Bold";
+  color: #fff;
+  border: none;
+  padding: 0px 10px !important; 
+}
+.popup-form-button:hover{
+  background: -webkit-linear-gradient(top, #00b5c7, #0080a3);
+  background: -moz-linear-gradient(top, #00b5c7, #0080a3);
+  background: -o-linear-gradient(top, #00b5c7, #0080a3);
+  background: linear-gradient(to bottom, #00b5c7, #0080a3);
+}
+/*FOLLOWED-USERS-POPUP*/
+#followed-users-popup,#create-challenge-popup, #online-users-popup, #search-users-popup,#accept-challenge2-popup, #accept-challenge1-popup, #account-balance-popup, #user-popup,#join-tour-popup{
+  width: 474px;
+  height: auto;
+  padding-bottom: 15px;
+  background-color: #0e0e0e;
+  position: absolute;
+  left: 50%;
+  margin-left: -237px;
+  top: -300px;
+}
+.followed-users-box, .online-users-box{
+  height: 70px;
+  border-bottom: 1px solid #333333;
+  width: 90%;
+  margin: 0px auto;
+  cursor: pointer;
+}
+.followed-users-box img, .online-users-box img{
+  width: 48px;
+  height: 48px;
+  margin-top: 9px;
+  margin-right: 12px;
+  float: left;
+}
+.followed-users-box span, .online-users-box span{
+  display: block;
+  height: 100%;
+  line-height: 70px;
+  color: #f3bd2e;
+  font-size: 14px;
+}
+.followed-users-box:hover, .online-users-box:hover{
+  background-color: #151515;
+}
+
+/*ONLINE USERS POPUP*/
+
+.game-trigger,.balance-trigger,.balance-sep{
+  width: 100%;
+  height: 53px;
+}
+.fifa-first, .fifa-second, .available, .balance, .balance-count,.available-count{
+  background: -webkit-linear-gradient(bottom, #111212, #191918);
+  background: -moz-linear-gradient(bottom, #111212, #191918);
+  background: -o-linear-gradient(bottom, #111212, #191918);
+  background: linear-gradient(to top, #111212, #191918);
+  width: 50%;
+  float: left;
+  height: 100%;
+  text-align: center;
+  line-height: 53px;
+  font-family:"EA Sports Covers SC Bold";
+  color: #b8b8b8;
+  cursor: pointer;
+}
+.fifa-first:hover, .fifa-second:hover{
+  background: -webkit-linear-gradient(bottom, #f2b923, #fae595);
+  background: -moz-linear-gradient(bottom, #f2b923, #fae595);
+  background: -o-linear-gradient(bottom, #f2b923, #fae595);
+  background: linear-gradient(to top, #f2b923, #fae595);
+  color: #181817;
+}
+
+/*SEARCH USERS POPUP*/
+
+#search-users-popup .popup-head, #account-balance-popup .popup-head{
+  line-height: 10px;
+}
+#search-users-popup .popup-head h1, #account-balance-popup .popup-head h1{
+  padding-top: 24px;
+}
+#search-users-popup .popup-head p, #account-balance-popup .popup-head p{
+  font-size: 13px;
+  color: #979797;
+  font-family: 'Open Sans', sans-serif;
+}
+.search-users-body{
+  background-color: #0e0e0e;
+  height: 153px;
+}
+.search-users-form input[type="text"]{
+  width: 240px;
+  height: 40px;
+  border: 1px solid #a5a5a5;
+  color: #0e0e0e;
+  margin-left: 17px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+}
+.search-users-form input[type="submit"]{
+  display: block;
+  width: 127px;
+  height: 52px;
+  margin: 21px auto;
+  border: none;
+}
+.search-users-form span{
+  color: #b8b8b8;
+  font-family:"EA Sports Covers SC Bold";
+  margin-left: 24px;
+}
+/*ACCEPT CHALLENGE-2*/
+
+#accept-challenge2-popup{
+  width: 650px;
+  margin-left: -325px;
+  padding-bottom: 40px;
+}
+#accept-challenge2-popup .popup-head h1, #accept-challenge1-popup .popup-head h1{
+  font-size: 20px;
+}
+.create-challenge-form-popup{
+  height: 42px;
+  background-color: #0e0e0e;
+}
+.accept-challenge-btn{
+  float: right;
+  display: block;
+  margin: 7px;
+  font-family:"EA Sports Covers SC Bold";
+}
+.create-challenge-form-popup .accept-challenge-select{
+  float: left;
+  margin: 7px;
+  display: block;
+  width: 190px;
+  height: 27px;
+  opacity: .9;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+/*ACCEPT CHALLENGE-1*/
+
+.accept-challenge1-box{
+  background-color: #0e0e0e;
+  height: 310px;
+}
+.accept-challenge1-form{
+    font-family: 'Open Sans', sans-serif;
+    color: #a5a5a5;
+}
+.accept-challenge1-form h2{
+  font-family:"EA Sports Covers SC Bold";
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 26px;
+}
+.accept-challenge1-form span{
+  color: #6c6c6c;
+  display: block;
+  float: left;
+  margin: 16px 15px 0px 26px;
+}
+.accept-challenge1-form textarea{
+  font-size: 13px;
+  padding: 10px;
+  resize: none;
+  width: 262px;
+  height: 146px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #a5a5a5;
+}
+.accept-popup-btn{
+  float: right;
+  width: 262px;
+  margin: 8px 44px 0 0;
+  font-size: 20px
+}
+
+/*ACCOUNT BALANCE POPUP*/
+
+#account-balance-popup .popup-head p{
+  color: #00f1ff;
+  font-weight: bold;
+}
+.available{border-left: 1px solid #222222;}
+.balance{border-right: 1px solid #050505;}
+.available, .balance, .available-count,.balance-count, .total-reward-box span{
+  color: #f3bd2e;
+}
+.available, .balance{
+  background: #141615 !important;
+}
+.available-count,.balance-count{
+  font-size: 30px;
+  background: #0e0e0e !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.balance-sep{
+  border-bottom: 1px solid #333333;
+}
+.total-reward-box{
+  text-align: center;
+  font-family:"EA Sports Covers SC Bold";
+}
+.total-reward-box h3{
+  color: #00f1ff;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.total-reward-box a{
+  text-decoration: underline;
+  color: #a5a5a5;
+  margin-left: 5px;
+}
+.balance-cashier-btn{
+  line-height: 52px;
+  width: 127px;
+  height: 52px;
+  background: -webkit-linear-gradient(bottom, #00b5c7, #0080a3);
+  background: -moz-linear-gradient(bottom, #00b5c7, #0080a3);
+  background: -o-linear-gradient(bottom, #00b5c7, #0080a3);
+  background: linear-gradient(to top, #00b5c7, #0080a3);
+  margin: 10px auto;
+}
+.balance-cashier-btn:hover{
+  background: -webkit-linear-gradient(top, #00b5c7, #0080a3);
+  background: -moz-linear-gradient(top, #00b5c7, #0080a3);
+  background: -o-linear-gradient(top, #00b5c7, #0080a3);
+  background: linear-gradient(to bottom, #00b5c7, #0080a3);  
+}
+.balance-cashier-btn a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: 0px;
+}
+
+/*Create challenge popup*/
+
+.create-challenge-body{
+  height: auto;
+  padding-bottom: 30px;
+  background-color: #0e0e0e;
+}
+.right-part{
+  width: 270px;
+  float: left;
+}
+.left-part{
+  width: 150px;
+  float:left;
+  line-height: 40px;
+}
+.left-part i{
+  font-size: 24px;
+  color: #fff;
+  padding: 8px 8px 0 0;
+  font-weight: 400;
+}
+.create-challenge-tape{
+  width: 430px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  height: 40px;
+  position: relative;
+}
+.create-challenge-form .create-challenge-tape:first-child .right-part{
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+}
+.create-challenge-form input[type="radio"]{
+  margin-left: 5px;
+}
+.create-challenge-form{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.create-challenge-form input[type="text"],.create-challenge-form textarea,.create-challenge-form select{
+  height: 40px;
+  color: #686464;
+  font-size: 12px;
+  font-weight: normal;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none!important;
+  border: 1px solid #a5a5a5;
+  padding-left: 15px;
+  opacity: 1;
+  line-height: 40px;
+  border-radius: 3px;
+}
+.create-challenge-tape .amount{
+  width: 120px !important;
+}
+.create-challenge-tape .oponent{
+  width: 224px !important;
+  float: left;
+}
+.right-part img{
+  float: right;
+  margin-top: 5px;
+  position: relative;
+  display: block;
+}
+.user-status-c:after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  bottom: -21px;
+  right: 34px;
+}
+.create-challenge-form select{
+  background-image: url(../img/arrow.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.create-challenge-form select option{
+  padding: 0;
+}
+.create-challenge-form textarea{
+  height: 147px;
+  margin-top: 0;
+  resize: none;
+}
+.send-challenge-btn{
+  width: 270px;
+  font-size: 15px;
+  float: right;
+  margin-right: 32px;
+  margin-top: 10px; 
+}
+
+/*USER_POPUP*/
+
+#user-popup{
+  width: 1140px !important;
+  margin-left: -570px;
+  background: none ;
+}
+.user-profile-popup, .user-tape-popup{
+  width: 50%;
+  float: left;
+}
+.user-profile-popup{
+  border-radius: 15px 0 0 15px;
+  background: rgba(189,203,204,.74);
+  padding: 20px;
+}
+#user-popup .pops-close2{
+  top: -1% !important;
+  right: -1% !important;
+}
+
+/*JOIN TOURNAMENT FIFA*/
+
+#join-tour-popup{
+  width: 1140px !important;
+  background: rgba(28,28,28,.76);
+  margin-left: -570px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 50px;
+  color: #fff;
+}
+#join-tour-popup h2{
+  font-family:"EA Sports Covers SC Bold";
+  font-size: 24px;
+}
+.start-date{
+  font-size: 14px;
+
+  margin-top: 20px;
+}
+#join-tour-popup span{
+  display: block;
+  color: #f3be31;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 20px;
+  clear: both;
+}
+#join-tour-popup strong{
+  font-weight: bold;
+}
+#join-tour-popup ul{
+  margin-top: 25px;
+  list-style-type: disc;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#join-tour-popup a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.rules-btn,.walk-btn{
+  width: 250px;
+  font-size: 17px;
+  float:left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.walk-btn{
+  margin-left: 15px;
+}
+#join-tour-popup p{
+  font-size: 14px;
+}
+.joinnow-btn{
+  width: 150px;
+  margin: 10px 0 10px 0;
+  font-size: 17px;
+}
+.choose-tour-box{
+  width: 100%;
+  background-color: #e2e2e2;
+  border: 1px solid white;
+  margin-top: 3px;
+  line-height: 30px;
+}
+.choose-tour-boxes{width: 300px}
+.choose-tour-box input{
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  margin-left: 5px;
+}
+#join-tour-popup .choose-tour-desc{
+  color: #161616;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+
+/*MESSAGES*/
+.up-down {
+  width: 9px;
+  position: absolute;
+  top: -2px;
+  left: 1px;
+}
+.up-down i{
+  display: block;
+  font-weight: bold;
+}
+
+.message-table{
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e2e2e2;
+}
+.message-table input[type="checkbox"]{
+  width: 14px;
+  height: 14px;
+}
+.message-table td{
+  vertical-align: middle;
+}
+.message-table-head td, .message-table-body td{
+  padding-left: 15px;
+  position: relative;
+}
+.message-table-head i{
+  float: none;
+}
+.message-table-head{
+  background: -webkit-linear-gradient(bottom, #cfcfcf, #ffffff);
+  background: -moz-linear-gradient(bottom, #cfcfcf, #ffffff);
+  background: -o-linear-gradient(bottom, #cfcfcf, #ffffff);
+  background: linear-gradient(to top, #cfcfcf, #ffffff);
+  color: #929292;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.message-table-body{
+  color: #282828;
+  font-size: 14px;
+  font-weight: 600;
+}
+.message-table-body td{
+  border-bottom: 1px solid #f7f7f7;
+  border-left: 1px solid #f7f7f7;
+  height: 30px;
+}
+.white-box-for-messages{
+  height: 330px;
+  background-color: #fff;
+}
+.mail-settings-box{
+  padding: 33px 0 25px 26px; 
+  height: auto;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+.mail-settings-box h2{
+  font-size: 16px;
+  color: #181817;
+  font-family:"EA Sports Covers SC Bold";
+}
+.mail-settings-box span{
+  height: 25px;
+  line-height: 25px;
+  color: #595959;
+}
+.mail-settings-box input[type="checkbox"]{
+  height: 25px;
+  width: 25px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  font-weight: normal;
+}
+.mail-settings-box input[type="submit"]{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.check-tape{
+  margin: 7px 0 7px 0;
+}
+/*message setting-compose*/
+
+.form-tape, .form-tape-ta{
+  height: 40px;
+  width: 550px;
+  text-align: left;
+  line-height: 40px;
+  margin: 4px 4px 4px 0;
+}
+.form-tape input, .form-tape-ta textarea{
+  width: 366px;
+  height: 40px;
+  background-color: #fff;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none!important;
+  border: 1px solid #a5a5a5;
+  border-radius: 4px;
+  float: right;
+  padding-left: 18px;
+  opacity: .7;
+  color: #686464;
+  font-size: 12px;
+}
+.form-tape-ta{
+  height: 90px;
+}
+.form-tape-ta textarea{
+  height: 90px;
+  margin: 0;
+  resize: none;
+}
+.message-setting-btn{
+  margin-left: 184px;
+  margin-bottom: 0px !important;
+}
+.compose{
+  font-size: 14px;
+}
+/*ERRORS*/
+#change-pass-valid .error{
+  color: red;
+  float: right;
+  line-height: 22px;
+}
+#change-user-valid .error{
+  color: red;
+  padding-left: 15px;
+  line-height: 22px;
+}
+#edit-account-valid .error, #edit-profile-valid .error, #cashier-valid .error, #service-message-valid .error,#affiliate-valid .error,#sign-up-valid .error{
+  color: red;
+  line-height: 22px;
+}
+
+#service-message-valid label.error, #sign-up-valid label.error{
+  font-size: 14px;
+  font-weight: normal;
+  float: left;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/*TOUR PAGE*/
+
+.body-wrapper .tour-web-container{
+  padding-top: 30px;
+}
+.matches{
+  width: 200px;
+  float:left;
+}
+.offset{
+  width: 40px;
+  float: left;
+}
+.match{
+  margin-bottom: 64px;
+}
+.win-indicator{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #00ff00;
+  position: absolute;
+  top:15px;right: 5px;
+  line-height: 40;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.win-indicator span{
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;right: 0;top: 0;bottom: 0;
+}
+.offset-arrows{
+  position: relative;
+  margin-top: 20px;
+  height: 104px;
+  width: 100%;
+  /*border-top: 1px solid #0d0d0d*/
+  /*border-bottom: 1px solid #0d0d0d*/
+  /*border-right: 1px solid #0d0d0d;*/
+  margin-bottom: 120px;
+}
+.match-info{
+  padding: 20px 0 20px 10px;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0,0,0,.6); 
+}
+.match-info span{
+  background-color: rgba(0,0,0,.6);
+  display: inline-block;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.player-content-box{
+  position: relative;
+  border: 1px solid #0d0d0d;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #f0b525, #fae596);
+  background: -moz-linear-gradient(top, #f0b525, #fae596);
+  background: -o-linear-gradient(top, #f0b525, #fae596);
+  background: linear-gradient(to bottom, #f0b525, #fae596);
+}
+.player-content-box a{
+  text-align: left;
+  border-left: 1px solid #dbb74b;
+  font-family: EA Sports Covers Bold;
+  display: block;
+  height: 100%;
+  color: #181817;
+  font-size: 12px;
+  padding-left: 15px;
+}
+.player-content-box a:hover{
+  color: #f3be31;
+  background: -webkit-linear-gradient(bottom, #0d0d0d, #1d1e1c);
+  background: -moz-linear-gradient(bottom, #0d0d0d, #1d1e1c);
+  background: -o-linear-gradient(bottom, #0d0d0d, #1d1e1c);
+  background: linear-gradient(to top, #0d0d0d, #1d1e1c);
+}
+
+
+/*TEST FOR TOUR TABLE*/
+@media screen and (min-width: 480px) { 
+    .round-table {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 0;
+    }
+    
+    .round {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row-reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;  
+        -webkit-flex: 4 0 auto;  
+            -ms-flex: 4 0 auto;  
+                flex: 4 0 auto;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+    
+    .round-table ul {
+        margin: 0;
+        padding: 0;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        list-style: none;   
+        -webkit-flex: 8 0 auto;   
+            -ms-flex: 8 0 auto;   
+                flex: 8 0 auto;
+        -webkit-order: 4;
+            -ms-flex-order: 4;
+                order: 4;
+    }
+    
+    .round::before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        border-top: 1px solid;
+        -webkit-order: 2;
+            -ms-flex-order: 2;
+                order: 2;
+        -webkit-flex: 1 0 auto;
+            -ms-flex: 1 0 auto;
+                flex: 1 0 auto;
+    }
+    
+    .round::after {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        -webkit-align-self: stretch;
+            -ms-flex-item-align: stretch;
+                align-self: stretch;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3;
+        -webkit-flex: 1 0 auto;
+            -ms-flex: 1 0 auto;
+                flex: 1 0 auto;
+        background-image: linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000);
+        background-size: 100% 1px, 100% 1px, 1px 50%;
+        background-position: 0 25%, 0 75%, 100% 50%;
+        background-repeat: no-repeat;
+    }
+    
+    .round-table p {
+        border: 1px solid;
+        margin: .5em 0;
+        padding: 1em;
+        background: #eee;    
+        -webkit-flex: 3 0 auto;    
+            -ms-flex: 3 0 auto;    
+                flex: 3 0 auto;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .round-table {
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .round-table > ul {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-align-self: stretch;
+            -ms-flex-item-align: stretch;
+                align-self: stretch;        
+        background: linear-gradient(#000,#000) 50% 0 no-repeat;
+        background-size: 1px 50%;
+    }
+    .round-table > ul > .round:first-child {
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .round-table > ul > .round:last-child, .round-table > ul > .round:last-child li {
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+    .round-table > ul > .round:last-child::after, .round-table > ul > .round:last-child .round::after {
+        background-position: 0 25%, 0 75%, 0% 50%;
+    }
+    .round-table::before, .round-table::after {
+        content: none;
+    }
+    .round-table > ul::after {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        border-top: 1px solid;
+        background: blue;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+        -webkit-flex: 1 0 auto;
+            -ms-flex: 1 0 auto;
+                flex: 1 0 auto;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+    }
+    .round-table > p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .round-table li {
+        margin-left: -20px;
+    }
+    .round-table {
+        margin-left: 80px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+}
+
+/*FOR BUTTONS PLAY PAGE*/
+.button-new{
+  display: inline-block;
+  padding: 4px 15px;
+  background: webkit-linear-gradient(bottom, #fae18e, #f2bc29);
+  background: -moz-linear-gradient(bottom, #fae18e, #f2bc29);
+  background: -o-linear-gradient(bottom, #fae18e, #f2bc29);
+  background: linear-gradient(to top, #fae18e, #f2bc29);
+  border-radius: 4px;
+  color: #131313;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 15px;
+}
+.button-new span{
+  color: red;
+  text-decoration: none;
+}
+.button-new:hover{
+  background: webkit-linear-gradient(top, #fae18e, #f2bc29);
+  background: -moz-linear-gradient(top, #fae18e, #f2bc29);
+  background: -o-linear-gradient(top, #fae18e, #f2bc29);
+  background: linear-gradient(to bottom, #fae18e, #f2bc29);
+}
+
+
+
+
+
+
